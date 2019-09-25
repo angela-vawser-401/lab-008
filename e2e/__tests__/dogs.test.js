@@ -65,7 +65,7 @@ describe('dogs api', () => {
       });
   });
 
-  it.skip('updates a dog', () => {
+  it('updates a dog', () => {
     return postDog(dogData)
       .then(dog => {
         dog.weight = 10;
@@ -75,7 +75,7 @@ describe('dogs api', () => {
           .expect(200);
       })
       .then(({ body }) => {
-        expect(body.weight).toBe(2);
+        expect(body.weight).toBe(10);
       });
   });
 
