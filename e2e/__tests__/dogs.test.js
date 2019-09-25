@@ -79,7 +79,7 @@ describe('dogs api', () => {
       });
   });
 
-  it.skip('deletes a dog', () => {
+  it('deletes a dog', () => {
     return postDog(dogData)
       .then(dog => {
         return request
