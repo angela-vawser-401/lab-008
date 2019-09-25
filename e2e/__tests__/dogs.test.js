@@ -38,7 +38,7 @@ describe('dogs api', () => {
       });
   });
 
-  it.skip('gets a dog by id', () => {
+  it('gets a dog by id', () => {
     return postDog(dogData)
       .then(dog => {
         return request.get(`/api/dogs/${dog._id}`)
