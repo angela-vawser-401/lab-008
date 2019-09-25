@@ -27,18 +27,18 @@ describe('dogs api', () => {
   }
 
   it.skip('post a dog', () => {
-    return postCat(Alaskan Klee Kai)
+    return postCat(dogData)
       .then(dog => {
         expect(dog).toEqual({
           _id: expect.any(String),
           __v: 0,
-          ...Alaskan Klee Kai
+          ...dogData
         });
       });
   });
 
   it.skip('gets a dog by id', () => {
-    return postDog(Alaskan Klee Kai)
+    return postDog(dogData)
       .then(dog => {
         return request.get(`/api/dogs/${dog._id}`)
           .expect(200)
@@ -65,7 +65,7 @@ describe('dogs api', () => {
   });
 
   it.skip('updates a dog', () => {
-    return postDog(Alaskan Klee Kai)
+    return postDog(dogData)
       .then(dog => {
         dog.weight = 10;
         return request
@@ -79,7 +79,7 @@ describe('dogs api', () => {
   });
 
   it.skip('deletes a dog', () => {
-    return postDog(Alaskan Klee Kai)
+    return postDog(dogData)
       .then(dog => {
         return request
           .delete(`/api/dogs/${dog._id}`)
