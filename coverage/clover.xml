@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1569445508839" clover="3.2.0">
-  <project timestamp="1569445508840" name="All files">
-    <metrics statements="74" coveredstatements="46" conditionals="15" coveredconditionals="2" methods="15" coveredmethods="4" elements="104" coveredelements="52" complexity="0" loc="74" ncloc="74" packages="5" files="9" classes="9"/>
+<coverage generated="1569446924698" clover="3.2.0">
+  <project timestamp="1569446924699" name="All files">
+    <metrics statements="74" coveredstatements="48" conditionals="15" coveredconditionals="2" methods="15" coveredmethods="6" elements="104" coveredelements="56" complexity="0" loc="74" ncloc="74" packages="5" files="9" classes="9"/>
     <package name="e2e">
-      <metrics statements="7" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="db.js" path="/Users/Walnut_Jelly/alchemy/career-track/lab-008/e2e/db.js">
-        <metrics statements="4" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
       <file name="request.js" path="/Users/Walnut_Jelly/alchemy/career-track/lab-008/e2e/request.js">
@@ -65,20 +65,20 @@
       </file>
     </package>
     <package name="lib.middleware">
-      <metrics statements="20" coveredstatements="8" conditionals="8" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <metrics statements="20" coveredstatements="7" conditionals="8" coveredconditionals="1" methods="3" coveredmethods="1"/>
       <file name="api-404.js" path="/Users/Walnut_Jelly/alchemy/career-track/lab-008/lib/middleware/api-404.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
       </file>
       <file name="check-connection.js" path="/Users/Walnut_Jelly/alchemy/career-track/lab-008/lib/middleware/check-connection.js">
         <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
       <file name="error-handler.js" path="/Users/Walnut_Jelly/alchemy/career-track/lab-008/lib/middleware/error-handler.js">
         <metrics statements="12" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -107,14 +107,14 @@
       </file>
     </package>
     <package name="lib.routes">
-      <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="dogs.js" path="/Users/Walnut_Jelly/alchemy/career-track/lab-008/lib/routes/dogs.js">
-        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
       </file>
     </package>
